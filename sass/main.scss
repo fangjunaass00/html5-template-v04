@@ -1,0 +1,209 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+ul,
+ol,
+li,
+a,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    font: 400 12px/1.5 'Microsoft Yahei';
+    background: #000000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+input,
+a,
+:focus {
+    outline: 0;
+    -moz-resize: none;
+    -ms-resize: none;
+    -o-resize: none;
+    resize: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Microsoft Yahei';
+    background: #000000;
+    position: relative;
+}
+
+.loading {
+    z-index: 99;
+}
+
+.loading .progress__img {
+    background: center top no-repeat;
+    -ms-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    width: 100%;
+    height: 5%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.loading .progress,
+.loading .progress-text {
+    height: 5%;
+    width: 100%;
+    line-height: 5%;
+    text-align: center;
+    font-size: 5%;
+    font-weight: 700;
+    color: #DE3121;
+    margin: 5% auto;
+}
+
+.music {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+}
+
+.music-playing {
+    background: url(../assets/img/music-on.png) center center no-repeat;
+    -ms-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.music-pause {
+    background: url(../assets/img/music-off.png) center center no-repeat;
+    -ms-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    /* display: none; */
+}
+
+.show-card {
+    display: block;
+}
+
+.card__sec1 {
+    width: 100%;
+    height: 100%;
+}
+
+#page1 {
+    display: block;
+}
+
+#page2,
+#page3 {
+    display: none;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15,
+.item16,
+.item17,
+.item18,
+.item19,
+.item20,
+.item21,
+.item22,
+.item23,
+.item24,
+.item25 {
+    background: center center no-repeat;
+    -ms-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.card__sec1--next-btn {
+    width: 100px;
+    height: 100px;
+    background: url(../assets/img/herdsric1.jpg) center center no-repeat;
+    -ms-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    background: url(../assets/img/bg-loading.jpg) center center no-repeat;
+    -ms-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.card__sec1 h1 {
+    font-size: 34px;
+    text-align: center;
+}
